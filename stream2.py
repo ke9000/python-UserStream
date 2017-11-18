@@ -3,7 +3,7 @@
 
 #Initialize
 import sys
-sys.path.append("D:\Python\Twitter-API\Lib")
+sys.path.append("Pass")
 reload(sys)
 sys.setdefaultencoding('utf-8') # デフォルトの文字コードを変更する．
 import requests
@@ -52,7 +52,7 @@ while(True):
 				
 						else:
 							continue
-					
+					#utf-8に関係するエラーは無視して吐き出し
 				except UnicodeEncodeError:
 					pass	
 					
