@@ -3,7 +3,7 @@
 
 #Initialize
 import sys
-sys.path.append("D:\Python\Twitter-API\Lib")
+sys.path.append("PASS")
 from requests_oauthlib import OAuth1Session
 import random
 import API
